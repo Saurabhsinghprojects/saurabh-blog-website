@@ -70,5 +70,5 @@ app.get('/auth/logout',logoutController)
 app.use((req,res)=>res.render('notFound'));
 
 app.listen(port,()=>{
-    console.log('Saurabh-blog App listening')
+    console.log('App listening')
 })
